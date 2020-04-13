@@ -1,4 +1,11 @@
 @import url(bootstrap.min.css);
 @import url(bootstrap-theme.css);
+.test {
+  background-color: grey;
+  height: 50px; }
+
+.test-2 {
+  background-color: silver;
+  height: 50px; }
 
 /*# sourceMappingURL=style.css.map */
