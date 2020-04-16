@@ -41,6 +41,9 @@ h3 {
     margin: 0 auto 20px;
     opacity: 0.6;
   }
+  @include max-screen(375px){
+  font-size: 2.2rem;
+  }
 }
 
 //header-begin
