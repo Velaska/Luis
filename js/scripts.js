@@ -19,8 +19,6 @@ $(document).ready(function () {
 
 });
 
-
-
 $(document).ready(function(){
 
     $(".back-to-top").hide();
