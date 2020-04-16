@@ -282,6 +282,28 @@ h3 {
       .testimonial-box .owl-dots button.owl-dot.active {
         background-color: black; }
 
+.funfact-box {
+  background-color: #f6f6f6;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin-bottom: 160px; }
+  .funfact-box .funfact-item {
+    padding-top: 25px;
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 1.375rem;
+    line-height: 2rem; }
+    .funfact-box .funfact-item img {
+      margin-bottom: 30px; }
+    .funfact-box .funfact-item p {
+      opacity: 0.9; }
+    .funfact-box .funfact-item .time {
+      opacity: 1;
+      font-weight: 500;
+      font-size: 1.875rem; }
+    .funfact-box .funfact-item:first-of-type {
+      padding-top: 0; }
+
 .contact-box {
   padding-top: 140px;
   background-color: rgba(33, 33, 33, 0.69);
@@ -314,6 +336,13 @@ h3 {
   .form-group textarea.form-control {
     height: 100px;
     resize: none; }
+
+.send {
+  padding: 18px 30px; }
+  .send:after {
+    content: url("../images/send-button.png");
+    display: inline-block;
+    margin-left: 10px; }
 
 footer {
   padding: 27px 0;
@@ -350,5 +379,28 @@ footer {
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 1rem; }
+
+.back-to-top {
+  width: 47px;
+  height: 47px;
+  line-height: 47px;
+  display: block;
+  position: fixed;
+  right: 30px;
+  background: white;
+  bottom: 100px;
+  text-align: center;
+  color: #4d4d4d;
+  z-index: 1;
+  -webkit-box-shadow: 8px 18px 29px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 8px 18px 29px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 18px 29px 0px rgba(0, 0, 0, 0.1);
+  margin: 10px 20px 10px 0; }
+  .back-to-top:hover {
+    transform: scale(1.1); }
+  @media screen and (max-width: 767px) {
+    .back-to-top {
+      right: 0px;
+      bottom: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
